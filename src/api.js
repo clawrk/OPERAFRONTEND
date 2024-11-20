@@ -10,7 +10,7 @@ const postRequest = async (endpoint, data) => {
     const response = await axios.post(endpoint, data, {
         headers: {
           'Content-Type': 'application/json',
-          Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM4ZjQ1ZjE3LWVkZWQtNDQ4Ny1hM2YxLTJmNjQ5MGQ0YjRiZCJ9.ZRkhWuGdQc-NGlVos9wRZEm9oczuaR9jJQPipLvKtu8',
+          Authorization: 'Bearer <token>',
         },
       });
       return response;
